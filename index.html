@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Personal Website</title>
+
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   </head>
+   <body>
+      <div id="preloader"> 
+         <div id="status">
+         </div> 
+       </div>
+      <section id="home">
+         <nav>
+            <a href="#" class="logo">Althaaf Ridha</a>
+            <ul>
+               <li><a href="#home" class="active">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="text-container">
+            <p>Hello, Folks!</p>
+            <p>I&#8217;m Althaaf Ridha</p>
+            <p>I&#8217;m <span id="typed"></span></p>
+            <p>Saya adalah Pecinta Alam, Saya juga memiliki <br>
+              minat pada bidang Olahraga
+            </p>
+            <form method="get" action="CV-Althaaf Ridha.zip">
+               <button class="hire-btn">Hire me</button>
+               <button class="down-cv" type="submit">Download CV</button>
+            </form>
+         </div>
+         <img alt="model" data-aos="flip-right" data-aos-duration="3000" class="model" src="photo.png">  
+      </section>
+      <section class="about" id="about">
+         <div class="about-text">
+            <p>Tentang Saya</p>
+         </div>
+         <img alt="model" id="model2" class="model2 animate__animated" src="profil.png">  
+         <div class="text-container2">
+            <table width="400px" height="200" data-aos="zoom-in-up">
+               <tr>
+                  <td colspan="2">Tentang Saya</td>
+               </tr>
+               <tr>
+                  <th>Nama : </th>
+                  <td>Althaaf Ridha</td>
+               </tr>
+               <tr>
+                  <th>Email : </th>
+                  <td>althaaf.zaydaan@gmail.com</td>
+               </tr>
+               <tr>
+                  <th>Status : </th>
+                  <td>Pelajar</td>
+               </tr>
+            </table>
+         </div>
+      </section>
+      <div class="services" id="skills">
+         <div class="services-text ">
+            <p>Kemampuan</p>
+            <p>Saya adalah pribadi yang berorientasi detail dengan pengalaman selama +- 3 tahun sebagai web developer. Terampil dalam mengoperasikan berbagai platform, memiliki kemampuan komunikasi lisan dan verbal yang baik, dan sanggup belajar hal-hal baru jika dibutuhkan.</p>
+         </div>
+         <div class="box-container">
+            <div data-aos="fade-right"
+               data-aos-offset="300"
+               data-aos-easing="ease-in-sine" class="box-1">
+               <p class="heading" style="color: #000000;">Kotlin</p>
+               <p class="details">
+                  <img src="kotlin.png" width="150" height="100" />
+               </p>
+               <button id="box1">Read More</button>
+            </div>
+            <div data-aos="fade-down"
+               data-aos-easing="linear"
+               data-aos-duration="1500" class="box-2">
+               <p class="heading" style="color: #000000;">Flutter</p>
+               <p class="details"><img src="flutter.png" width="150" height="100" /></p>
+               <button id="box2">Read More</button>
+            </div>
+            <div data-aos="fade-left"
+               data-aos-offset="300"
+               data-aos-easing="ease-in-sine" class="box-3">
+               <p class="heading" style="color: #000000;">HTML</p>
+               <p class="details"><img src="html.png" width="150" height="100" /></p>
+               <button id="box3">Read More</button>
+            </div>
+         </div>
+      </div>
+      <footer id="contact">
+         <p>Kontak Saya</p>
+         <a href="-" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp saya</a>
+         <p class="copyright">Copyright © by Althaaf Ridha</p>
+      </footer>
+      <div class="social">
+         <a href="mailto:althaaf.zaydaan@gmail.com" target="_blank" class="gmail"><i class="fab fa-google"></i></a>
+         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+         <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+         <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+      <script src="main.js"></script>
+   </body>
+</html>
